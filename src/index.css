@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Rubik', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiAccordion-root:before {
+    height: 0 !important;
+}
+
+.MuiAccordionSummary-content {
+    justify-content: space-between !important;
+}
+
+#body {
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: 4px;
+    height: 5px;
+    background-color: #C0C0C0;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    border-radius: 4px;
+    height: 5px;
+    background-color: #C0C0C0;
+}
